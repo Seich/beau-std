@@ -1,0 +1,12 @@
+endpoint: https://webhook.site/
+
+plugins:
+  - std:
+      date:
+        format: 'YYYY-MM-DD'
+
+POST /8806bba7-d947-47bf-9445-cccc73e92bb8:
+  alias: test
+  payload:
+    today: $[now(`YYYY`)]
+    someDay: $[date(2018, 5, 17)]

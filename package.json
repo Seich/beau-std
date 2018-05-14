@@ -19,7 +19,9 @@
         "url": "https://github.com/seich/beau-std/issues"
     },
     "homepage": "https://github.com/seich/beau-std#readme",
-    "dependencies": {},
+    "dependencies": {
+        "date-fns": "^1.29.0"
+    },
     "devDependencies": {
         "jest": "^22.4.3"
     }
