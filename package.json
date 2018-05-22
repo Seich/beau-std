@@ -3,9 +3,7 @@
     "version": "0.9.0",
     "description": "General purpose Beau plugins.",
     "main": "./lib/index.js",
-    "scripts": {
-        "test": "jest"
-    },
+    "scripts": {},
     "repository": {
         "type": "git",
         "url": "git+https://github.com/seich/beau-std.git"
@@ -22,7 +20,5 @@
     "dependencies": {
         "date-fns": "^1.29.0"
     },
-    "devDependencies": {
-        "jest": "^22.4.3"
-    }
+    "devDependencies": {}
 }
