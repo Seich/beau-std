@@ -1,6 +1,6 @@
 {
     "name": "beau-std",
-    "version": "0.9.3",
+    "version": "0.9.4",
     "description": "General purpose Beau plugins.",
     "main": "./lib/index.js",
     "scripts": {},
