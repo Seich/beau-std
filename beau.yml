@@ -1,12 +1,23 @@
-endpoint: https://webhook.site/
+endpoint: https://httpbin.org/
 
 plugins:
   - std:
       date:
         format: 'YYYY-MM-DD'
 
-POST /8806bba7-d947-47bf-9445-cccc73e92bb8:
-  alias: test
+POST /anything:
+  alias: date
   payload:
     today: $[now(`YYYY`)]
     someDay: $[date(2018, 5, 17)]
+
+POST /anything?1:
+  alias: uuid
+  payload:
+    uuid: $[uuid()]
+
+POST /anything?2:
+  alias: upload
+  formdata:
+    file: $[createReadStream('./LICENSE')]
+  
